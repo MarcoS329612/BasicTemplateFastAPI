@@ -55,3 +55,7 @@ pytest_cache/
 # Personal notes or TODO files
 TODO
 NOTES
+
+
+# Poetry lock file
+poetry.lock
