@@ -10,7 +10,7 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   # workflow_dispatch:
-    
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -24,4 +24,4 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12' 
-      - run: python my_script.py
+      - run: main.py
