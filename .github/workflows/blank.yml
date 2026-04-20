@@ -33,4 +33,4 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: "Run main"
-        run: uv run fastapi dev
+        run: uv run uvicorn main:app
